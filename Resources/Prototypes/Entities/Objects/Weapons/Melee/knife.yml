@@ -307,7 +307,7 @@
   name: toxic knife
   parent: [BaseKnife, BaseSyndicateContraband]
   id: ToxicKnife
-  description: Vova loh(lox)
+  description: Knife
   components:
   - type: Tag
     tags:
@@ -321,7 +321,7 @@
     attackRate: 2
     damage:
       types:
-        Slash: 5
+        Slash: 11
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/rubberhammer.ogg
     offset: -0.15,0.0
