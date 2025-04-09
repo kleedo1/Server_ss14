@@ -1,0 +1,86 @@
+# Knife Timer
+- type: loadoutEffectGroup
+  id: ChefGoldenKnife
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobChef
+      time: 108000 # 30 hours
+
+# Head
+- type: loadout
+  id: ChefHead
+  equipment:
+    head: ClothingHeadHatChef
+
+# Mask
+- type: loadout
+  id: ChefMask
+  equipment:
+    mask: ClothingMaskItalianMoustache
+
+# Jumpsuit
+- type: loadout
+  id: ChefJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChef
+
+- type: loadout
+  id: ChefJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChef
+
+# Outer clothing
+- type: loadout
+  id: ChefApron
+  equipment:
+    outerClothing: ClothingOuterApronChef
+
+- type: loadout
+  id: ChefJacket
+  equipment:
+    outerClothing: ClothingOuterJacketChef
+
+- type: loadout
+  id: ChefWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterChef
+
+# Underwear
+- type: loadout
+  id: UnderwearBottomBoxersChef
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomBoxersChef
+
+- type: loadout
+  id: UnderwearBottomPantiesChef
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomPantiesChef
+
+- type: loadout
+  id: UnderwearTopBraChef
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underweart: ClothingUnderwearTopBraChef
+
+- type: loadout
+  id: ChefGoldenKnife
+  inhand:
+  - ChefGoldenKnife
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ChefGoldenKnife
+
+- type: loadout
+  id: ClothingHandsGlovesLatex
+  equipment:
+    gloves: ClothingHandsGlovesLatex

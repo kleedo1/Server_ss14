@@ -1,0 +1,14 @@
+ent-RubberStampMagistrat = magistrat's rubber stamp
+    .desc = { ent-RubberStampBase.desc }
+ent-RubberStampBrigmedic = brigmedic's rubber stamp
+    .desc = { ent-RubberStampBase.desc }
+ent-RubberStampMemeDeny = meme deny rubber stamp
+    .desc = { ent-RubberStampBase.desc }
+ent-RubberStampCoroner = coroner rubber stamp
+    .desc = { ent-RubberStampBase.desc }
+ent-RubberStampBlueShield = blue shield rubber stamp
+    .desc = { ent-RubberStampBase.desc }
+ent-RubberStampSeniorAdministrator = senior administrator rubber stamp
+    .desc = { ent-RubberStampBase.desc }
+ent-RubberStampMeow = лапка печать
+    .desc = { ent-RubberStampBase.desc }
