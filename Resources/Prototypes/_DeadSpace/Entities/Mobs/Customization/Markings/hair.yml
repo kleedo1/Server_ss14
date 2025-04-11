@@ -1,7 +1,0 @@
-- type: marking
-  id: HumanFacialHairCorrectedman
-  bodyPart: FacialHair
-  markingCategory: FacialHair
-  sprites:
-    - sprite: _DeadSpace/Mobs/Customization/hair.rsi
-      state: correctedman

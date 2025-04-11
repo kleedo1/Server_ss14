@@ -1,9 +1,0 @@
-- type: entity
-  parent: TechnologyDisk
-  id: TechnologyDiskSuperRare
-  suffix: Редкий
-  components:
-  - type: TechnologyDisk
-    tierWeightPrototype: SuperRareTechDiskTierWeights
-  - type: StaticPrice
-    price: 10000
