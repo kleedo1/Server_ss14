@@ -1,0 +1,34 @@
+- type: job
+  id: Reporter
+  name: job-name-reporter
+  description: job-description-reporter
+  playTimeTracker: JobReporter
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 3600 # 1 hour
+  startingGear: ReporterGear
+  icon: "JobIconReporter"
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Maintenance
+  #start-backmen: currency
+  minBankBalance: 150
+  maxBankBalance: 250
+  wageDepartment: Civilian
+  wage: 50
+  #end-backmen: currency
+
+- type: startingGear
+  id: ReporterGear
+  equipment:
+    shoes: ClothingShoesColorWhite
+    id: ReporterPDA
+    ears: ClothingHeadsetService
+    socks: ClothingUnderwearSocksReporter
+  storage:
+    back:
+    - TapeRecorder
+    - CassetteTape
+    - CassetteTape

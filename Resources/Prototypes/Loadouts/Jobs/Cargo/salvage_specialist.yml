@@ -1,0 +1,73 @@
+# Jumpsuit
+- type: loadout
+  id: SalvageSpecialistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+
+- type: loadout
+  id: SalvageSpecialistJumpsuitFormal
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSalvageFormal
+
+- type: loadout
+  id: SalvageSpecialistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCargoSalvage
+
+- type: loadout
+  id: SalvageSpecialistJumpskirtFormal
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCargoSalvageFormal
+
+# Back
+- type: loadout
+  id: SalvageSpecialistBackpack
+  equipment:
+    back: ClothingBackpackSalvage
+
+- type: loadout
+  id: SalvageSpecialistSatchel
+  equipment:
+    back: ClothingBackpackSatchelSalvage
+
+- type: loadout
+  id: SalvageSpecialistDuffel
+  equipment:
+    back: ClothingBackpackDuffelSalvage
+
+# OuterClothing
+- type: loadout
+  id: SalvageSpecialistWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterMiner
+
+# Shoes
+- type: loadout
+  id: SalvageBoots
+  equipment:
+    shoes: ClothingShoesBootsSalvage
+
+# Underwear
+- type: loadout
+  id: UnderwearBottomBoxersSalvageSpecialist
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomBoxersSalvageSpecialist
+
+- type: loadout
+  id: UnderwearBottomPantiesSalvageSpecialist
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underwearb: ClothingUnderwearBottomPantiesSalvageSpecialist
+
+- type: loadout
+  id: UnderwearTopBraSalvageSpecialist
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: FemaleUnderwear
+  equipment:
+    underweart: ClothingUnderwearTopBraSalvageSpecialist
